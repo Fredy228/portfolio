@@ -11,6 +11,7 @@ import skills_img_10 from 'img/skills/skills-10.png';
 import skills_img_11 from 'img/skills/skills-11.png';
 import skills_img_12 from 'img/skills/skills-12.png';
 import skills_img_13 from 'img/skills/skills-13.png';
+import skills_img_14 from 'img/skills/skills-14.png';
 
 export const dataSkills = [
   {
@@ -21,7 +22,7 @@ export const dataSkills = [
   },
   {
     id: 2,
-    title: 'CSS',
+    title: 'CSS3',
     url: skills_img_2,
     level: 5,
   },
@@ -89,6 +90,12 @@ export const dataSkills = [
     id: 13,
     title: 'NestJS',
     url: skills_img_13,
+    level: 3,
+  },
+  {
+    id: 14,
+    title: 'Nginx',
+    url: skills_img_14,
     level: 3,
   },
 ];

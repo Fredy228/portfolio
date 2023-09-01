@@ -21,7 +21,7 @@ export const Skills = ({ t }) => {
         {dataSkills.map(item => (
           <ItemSkills key={item.id}>
             <WrapperImg>
-              <ImgSkills src={item.url} />
+              <ImgSkills src={item.url} loading={'lazy'} alt={item.title} />
             </WrapperImg>
             <TitleSkills>{item.title}</TitleSkills>
             <TitleLevel>{t('level')}</TitleLevel>
