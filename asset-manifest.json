@@ -1,7 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4e3ed9fa.css",
-    "main.js": "/portfolio/static/js/main.6ea315c2.js",
+    "main.js": "/portfolio/static/js/main.5943e7c1.js",
+    "static/media/portfolio-1.png": "/portfolio/static/media/portfolio-1.4bb121a51a7321514e3d.png",
+    "static/media/portfolio-3.png": "/portfolio/static/media/portfolio-3.cd1fa231c5464a11fe8f.png",
+    "static/media/portfolio-4.png": "/portfolio/static/media/portfolio-4.ba8a077439a0d66cb7a7.png",
+    "static/media/portfolio-2.png": "/portfolio/static/media/portfolio-2.2134addf853a88811798.png",
+    "static/media/portfolio-5.png": "/portfolio/static/media/portfolio-5.4b9d114ac7529eb60ecd.png",
     "static/media/intro.webp": "/portfolio/static/media/intro.ad1c2f6d62a17e3416fe.webp",
     "static/media/montserrat-v25-cyrillic_latin-700italic.svg": "/portfolio/static/media/montserrat-v25-cyrillic_latin-700italic.5445bce4bb5a688d9a9a.svg",
     "static/media/montserrat-v25-cyrillic_latin-500italic.svg": "/portfolio/static/media/montserrat-v25-cyrillic_latin-500italic.3a2dc388bad4673effa8.svg",
@@ -40,16 +45,17 @@
     "static/media/skills-10.png": "/portfolio/static/media/skills-10.e3d303c414914d83effb.png",
     "static/media/skills-9.png": "/portfolio/static/media/skills-9.9c751153e45f326350df.png",
     "static/media/skills-2.png": "/portfolio/static/media/skills-2.b229205f25f30f7015dc.png",
+    "static/media/skills-14.png": "/portfolio/static/media/skills-14.273015bbaf35c7d7bac1.png",
     "static/media/skills-5.png": "/portfolio/static/media/skills-5.4bebbe1e5361c338b767.png",
     "static/media/skills-3.png": "/portfolio/static/media/skills-3.3dfb665e058d08c99f28.png",
     "static/media/skills-12.png": "/portfolio/static/media/skills-12.d5de1d190816ffb6a1ac.png",
     "index.html": "/portfolio/index.html",
     "static/media/ico.svg": "/portfolio/static/media/ico.10c4aba3373afaf03a40ea90ba865a07.svg",
     "main.4e3ed9fa.css.map": "/portfolio/static/css/main.4e3ed9fa.css.map",
-    "main.6ea315c2.js.map": "/portfolio/static/js/main.6ea315c2.js.map"
+    "main.5943e7c1.js.map": "/portfolio/static/js/main.5943e7c1.js.map"
   },
   "entrypoints": [
     "static/css/main.4e3ed9fa.css",
-    "static/js/main.6ea315c2.js"
+    "static/js/main.5943e7c1.js"
   ]
 }
