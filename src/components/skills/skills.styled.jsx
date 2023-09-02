@@ -51,7 +51,11 @@ export const WrapperImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 180px;
+  min-height: 250px;
+
+  @media screen and (max-width: 1199px) {
+    min-height: 180px;
+  }
 
   @media screen and (max-width: 767px) {
     min-height: 150px;
