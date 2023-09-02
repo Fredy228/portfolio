@@ -54,11 +54,22 @@ export const NameText = styled.h1`
   color: #fff;
   text-transform: uppercase;
   margin-top: 30px;
+  font-size: 32px;
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    font-size: 25px;
+  }
 `;
 
 export const IsMe = styled.h2`
   color: #fff;
   margin-top: 15px;
+  font-size: 25px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+  }
 `;
 
 const arrowAnim = keyframes`

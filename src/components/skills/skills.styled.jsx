@@ -25,20 +25,23 @@ export const ItemSkills = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  justify-content: center;
 
   @media screen and (max-width: 767px) {
-    max-width: 320px;
-    margin: 15px auto calc(30px / 2) auto;
+    //max-width: 320px;
+    //margin: 15px auto calc(30px / 2) auto;
+    margin: calc(20px / 2);
+    flex-basis: calc(100% / 2 - 20px);
   }
 
   @media screen and (min-width: 768px) {
+    padding: 10px;
     margin: calc(40px / 2);
-    flex-basis: calc(100% / 2 - 40px);
+    flex-basis: calc(100% / 3 - 40px);
   }
 
   @media screen and (min-width: 1000px) {
-    margin: calc(40px / 3);
+    margin: calc(40px / 2);
     flex-basis: calc(100% / 4 - 40px);
   }
 `;
@@ -48,16 +51,24 @@ export const WrapperImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  min-height: 180px;
+
+  @media screen and (max-width: 767px) {
+    min-height: 150px;
+  }
 `;
 
 export const ImgSkills = styled.img`
-  width: 150px;
+  width: 100%;
 `;
 
 export const TitleSkills = styled.h3`
   font-size: 20px;
   margin-top: 15px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 
 export const TitleLevel = styled.p`
@@ -73,6 +84,10 @@ export const LevelSkills = styled.span`
   background-color: rgba(128, 128, 128, 0.8);
   width: 25%;
   margin: 0 5px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0 2px;
+  }
 `;
 
 export const WrapperLevel = styled.div`
