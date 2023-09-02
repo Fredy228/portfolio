@@ -1,4 +1,5 @@
 import {
+  DatePortfolio,
   ImgSkills,
   ItemPortfolio,
   ItemSkillsCurrent,
@@ -30,6 +31,7 @@ export const Portfolio = ({ t }) => {
                 />
               </WrapperImg>
               <TitlePortfolio>{item.title}</TitlePortfolio>
+              <DatePortfolio>{item.date}</DatePortfolio>
               <ListSkillsCurrent>
                 {item.skills.map(skill => (
                   <ItemSkillsCurrent key={skill.id}>

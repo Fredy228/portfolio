@@ -94,3 +94,13 @@ export const ItemSkillsCurrent = styled.li`
   justify-content: center;
   align-items: center;
 `;
+
+export const DatePortfolio = styled.p`
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: italic;
+
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+`;

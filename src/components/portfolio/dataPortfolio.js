@@ -13,6 +13,7 @@ export const dataPortfolio = [
     skills: [dataSkills[0], dataSkills[1], dataSkills[2]],
     url: portfolio_img_1,
     link: 'https://fredy228.github.io/goit-markup-hw-08/',
+    date: 'September 2022',
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const dataPortfolio = [
     skills: [dataSkills[0], dataSkills[1], dataSkills[2]],
     url: portfolio_img_2,
     link: 'https://fredy228.github.io/goit-icecream/',
+    date: 'December 2022',
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const dataPortfolio = [
     skills: [dataSkills[0], dataSkills[1], dataSkills[2], dataSkills[7]],
     url: portfolio_img_3,
     link: 'https://fredy228.github.io/Filmoteka/',
+    date: 'March 2023',
   },
   {
     id: 4,
@@ -41,6 +44,7 @@ export const dataPortfolio = [
     ],
     url: portfolio_img_4,
     link: 'https://solarman.pro/',
+    date: 'June 2023',
   },
   {
     id: 5,
@@ -54,5 +58,6 @@ export const dataPortfolio = [
     ],
     url: portfolio_img_5,
     link: 'https://github.com/Fredy228/solarman-server-ts',
+    date: 'June 2023',
   },
 ].reverse();
