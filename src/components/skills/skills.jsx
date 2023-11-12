@@ -2,13 +2,10 @@ import {
   ImgSkills,
   InnerSkills,
   ItemSkills,
-  LevelSkills,
   ListSkills,
   SectionTitle,
-  TitleLevel,
   TitleSkills,
   WrapperImg,
-  WrapperLevel,
 } from './skills.styled';
 
 import { dataSkills } from './dataSkills';
@@ -24,14 +21,6 @@ export const Skills = ({ t }) => {
               <ImgSkills src={item.url} loading={'lazy'} alt={item.title} />
             </WrapperImg>
             <TitleSkills>{item.title}</TitleSkills>
-            <TitleLevel>{t('level')}</TitleLevel>
-            <WrapperLevel level={item.level}>
-              <LevelSkills level={item.level}></LevelSkills>
-              <LevelSkills level={item.level}></LevelSkills>
-              <LevelSkills level={item.level}></LevelSkills>
-              <LevelSkills level={item.level}></LevelSkills>
-              <LevelSkills level={item.level}></LevelSkills>
-            </WrapperLevel>
           </ItemSkills>
         ))}
       </ListSkills>
